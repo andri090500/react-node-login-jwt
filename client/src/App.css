@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .register {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.App .register h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.App .register label {
+  display: block;
+}
+.App .register input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 5px;
+}
+
+.App .register input:focus {
+  border-bottom: 1px solid rgb(75, 75, 247);
+}
+
+.App .register button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 8px 0;
+  border: 1px solid rgb(75, 75, 247);
+  background-color: rgb(75, 75, 247);
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.App .register button:hover {
+  border: 1px solid rgb(75, 75, 247);
+  background: white;
+  color: rgb(75, 75, 247);
+}
+.App .login {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.App .login h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.App .login label {
+  display: block;
+}
+.App .login input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 5px;
+}
+
+.App .login input:focus {
+  border-bottom: 1px solid rgb(75, 75, 247);
+}
+
+.App .login button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 8px 0;
+  border: 1px solid rgb(75, 75, 247);
+  background-color: rgb(75, 75, 247);
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.App .login button:hover {
+  border: 1px solid rgb(75, 75, 247);
+  background: white;
+  color: rgb(75, 75, 247);
+}
